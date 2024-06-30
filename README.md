@@ -12,3 +12,24 @@ Los tickets se agruparán en directorios con el mismo nombre que cada directorio
 Para ejecutar el script, se debe ajustar la ruta al directorio de los graduados o incluir los archivos del proyecto en el directorio en cuestión. Comando en terminal:
 
 `python ticketGenerator.py`
+
+La estructura del proyecto al ejecutar con las opciones por defecto debe ser la siguiente:
+
+```
+Directorio Proyecto (/.)
+│   EntradaTipo1.png
+│   EntradaTipo2.png
+│   ticketGenerator.py
+│
+└───Graduado1
+        QR1.png
+        QR2.png
+        ...
+ | 
+ └───Graduado2
+        QR1.png
+        QR2.png
+        ...
+ | 
+ └─── ...
+```
